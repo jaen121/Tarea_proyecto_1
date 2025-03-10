@@ -1,0 +1,55 @@
+---
+title: "Proyecto I. Limpieza y Preprocesamiento de Datos"
+author: "Jairo Enrique Alba"
+date: ""
+output: html_document
+---
+
+
+
+## Proyecto: Análisis Exploratorio de Datos con R
+
+
+### Objetivo del Proyecto
+
+Realizar un análisis exploratorio de datos (EDA) utilizando un dataset obtenido de la plataforma **Microdatos del DANE**. Los estudiantes aplicarán técnicas de limpieza de datos, manipulación de datos, y visualización, y documentarán su trabajo utilizando R Markdown. Al final, publicarán su informe en GitHub y compartirán el enlace al docente.
+
+### Instrucciones
+
+**1. Descarga de datos**
+
++ Ingresar al sitio web del DANE en el siguiente enlace: <https://www.dane.gov.co/index.php/estadisticas-por-tema/agropecuario/encuesta-nacional-agropecuaria-ena>
++ Seleccionar un dataset relacionado con el sector agropecuario que contenga información sobre producción de leche.
++ Descargar el archivo en formato compatible (CSV, XLSX, etc.) y cargarlo en R.
+
+
+**2. Selección de variables**
+
++ Identificar y seleccionar:
++ Una variable cuantitativa (por ejemplo, volumen de leche producido).
++ Una variable cualitativa (por ejemplo, departamento o municipio).
+
+**3. Limpieza de datos**
+
++ Identificar y tratar:
++ Datos perdidos: indicar cuántos valores faltan y aplicar técnicas de imputación o exclusión según el caso.
++ Datos repetidos: eliminar filas duplicadas en el dataset.
+
+**4. Análisis exploratorio de datos (EDA)**
+
++ Calcular medidas estadísticas descriptivas (media, mediana, moda, etc.) para la variable cuantitativa.
++ Generar gráficos básicos (barras, boxplots, histogramas, etc.) para visualizar las variables seleccionadas.
++ Filtrar y presentar el Top 10 de municipios o departamentos según la producción de leche.
+
+**5. Documentación en R Markdown**
+
++ Crear un informe en R Markdown que incluya:
++ Introducción y descripción del dataset seleccionado.
++ Procedimiento seguido para la limpieza de datos.
++ Resultados del análisis exploratorio (tablas y gráficos).
++ Conclusiones.
+
+**6. Publicación y entrega**
+
++ Subir el informe generado en formato HTML a un repositorio público de GitHub.
++ Enviar al docente el enlace al repositorio.
