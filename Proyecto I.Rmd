@@ -18,16 +18,26 @@ Realizar un análisis exploratorio de datos (EDA) utilizando un dataset obtenido
 
 **1. Descarga de datos**
 
-+ Ingresar al sitio web del DANE en el siguiente enlace: <https://www.dane.gov.co/index.php/estadisticas-por-tema/agropecuario/encuesta-nacional-agropecuaria-ena>
-+ Seleccionar un dataset relacionado con el sector agropecuario que contenga información sobre producción de leche.
++ Ingresar al sitio web del DANE en el siguiente enlace: <https://microdatos.dane.gov.co/index.php/catalog/central/about>
+
++ Seleccionar un dataset relacionado con el sector que le llame la atención, puede ser de:
+
+    **Economía:** Comercio internacional, Comercio interno, Construcción, Industria, Mercado Laboral, Precios y costos, Salud, Servicios, Tecnología e innovación.
+ 
+   **Sociedad** Cultura, Demografía y población, Educación, 
+Gobierno, Pobreza y condiciones de vida, Seguridad y defensa.
+
+  **Territorio:** Ambientales, Agropecuario, Información regional.
+
 + Descargar el archivo en formato compatible (CSV, XLSX, etc.) y cargarlo en R.
 
 
 **2. Selección de variables**
 
 + Identificar y seleccionar:
-+ Una variable cuantitativa (por ejemplo, volumen de leche producido).
-+ Una variable cualitativa (por ejemplo, departamento o municipio).
++ Código del departamento o municipio.
++ Una variable cuantitativa (por ejemplo, numero de hijos).
++ Una variable cualitativa (por ejemplo, causa principal de la defunción).
 
 **3. Limpieza de datos**
 
