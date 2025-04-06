@@ -1,65 +1,85 @@
 ---
-title: "Proyecto I. Limpieza y Preprocesamiento de Datos"
-author: "Jairo Enrique Alba"
-date: ""
+title: "Tarea I: Análisis Exploratorio de Datos"
 output: html_document
 ---
 
+## Tarea I: Análisis Exploratorio de Datos
+
+### Descripción General
+
+Este proyecto tiene como objetivo que los estudiantes desarrollen habilidades en análisis exploratorio de datos (EDA) mediante el uso de R y R Markdown, utilizando datos abiertos de la plataforma **Microdatos del DANE**. A lo largo del proyecto, los estudiantes trabajarán en grupos para seleccionar un tema de interés, formular el problema de investigación, establecer objetivos, realizar limpieza y análisis de datos, y presentar sus hallazgos en un informe publicado en GitHub.
+
+### Trabajo en Grupo
+
+El desarrollo del proyecto se debe realizar en **grupos de tres (3) estudiantes**. Cada grupo debe seleccionar su propio tema y dataset, formular su **planteamiento del problema**, redactar un **objetivo general** y al menos tres **objetivos específicos**.
+
+---
+
+## Etapas del Proyecto
+
+### 1. Selección del tema y planteamiento del problema
+
+- Elegir un tema de interés basado en las categorías disponibles en la plataforma del DANE.
+- Seleccionar un dataset relacionado con el tema.
+- Redactar el **planteamiento del problema**, el **objetivo general** y los **objetivos específicos**.
+
+### 2. Descarga de datos
+
+- Ingresar al sitio web del DANE en el siguiente enlace:
+
+  [https://microdatos.dane.gov.co/index.php/catalog/central/about](https://microdatos.dane.gov.co/index.php/catalog/central/about)
+
+- Seleccionar un dataset relacionado con el sector elegido. Algunas categorías disponibles son:
+  - **Economía:** Comercio internacional, Comercio interno, Construcción, Industria, Mercado Laboral, Precios y costos, Salud, Servicios, Tecnología e innovación.
+  - **Sociedad:** Cultura, Demografía y población, Educación, Gobierno, Pobreza y condiciones de vida, Seguridad y defensa.
+  - **Territorio:** Ambientales, Agropecuario, Información regional.
+- Descargar el archivo en formato compatible (CSV, XLSX, etc.) y cargarlo en R.
+
+### 3. Descargar los datos
+
+- Descargar los datos en la carpeta datos como se explica en el proyecto I y proyecto II.
+- Descargar el diccionario de departamentos que los encuentra en GitHub proyecto I y proyecto II, en la carpeta datos.
+
+### 4. Selección de variables
+
+Identificar y seleccionar:
+
+- Una variable cuantitativa
+- Una variable cualitativa
+- Código del departamento o municipio
+
+### 4. Relacionar los datos descargados desde DANE y el el diccionario de departamentos
+
+### 5. Limpieza de datos
+
+Identificar y tratar:
+
+- **Datos perdidos:** indicar cuántos valores faltan y aplicar técnicas de imputación o exclusión según el caso.
+- **Datos repetidos:** eliminar filas duplicadas en el dataset.
+
+### 6. Análisis exploratorio de datos (EDA)
+
+- Calcular medidas estadísticas descriptivas (media, mediana, moda, etc.) para la variable cuantitativa.
+- Generar gráficos básicos (barras, boxplots, histogramas, etc.) para visualizar las variables seleccionadas.
+- Filtrar y presentar el Top 10 de municipios o departamentos según una métrica relevante del dataset.
+
+### 7. Documentación en R Markdown
+
+Crear un informe en R Markdown que incluya:
+
+- Introducción, incluyendo el planteamiento del problema y los objetivos del proyecto.
+- Descripción del dataset seleccionado.
+- Procedimiento seguido para la limpieza de datos.
+- Resultados del análisis exploratorio (tablas y gráficos).
+- Conclusiones basadas en el análisis.
+
+### 8. Publicación y entrega
+
+- Subir el proyecto a un repositorio público de GitHub.
+- Generar un enlace para el HTML creado.
+- Crear un documento PDF, con la portada del trabajo y los enlaces de:
+  - Proyecto completo en GitHub
+  - Enlace al HTML generado
+- Subir el PDF final en el espacio de entrega.
 
 
-## Proyecto: Análisis Exploratorio de Datos con R
-
-
-### Objetivo del Proyecto
-
-Realizar un análisis exploratorio de datos (EDA) utilizando un dataset obtenido de la plataforma **Microdatos del DANE**. Los estudiantes aplicarán técnicas de limpieza de datos, manipulación de datos, y visualización, y documentarán su trabajo utilizando R Markdown. Al final, publicarán su informe en GitHub y compartirán el enlace al docente.
-
-### Instrucciones
-
-**1. Descarga de datos**
-
-+ Ingresar al sitio web del DANE en el siguiente enlace: <https://microdatos.dane.gov.co/index.php/catalog/central/about>
-
-+ Seleccionar un dataset relacionado con el sector que le llame la atención, puede ser de:
-
-    **Economía:** Comercio internacional, Comercio interno, Construcción, Industria, Mercado Laboral, Precios y costos, Salud, Servicios, Tecnología e innovación.
- 
-   **Sociedad** Cultura, Demografía y población, Educación, 
-Gobierno, Pobreza y condiciones de vida, Seguridad y defensa.
-
-  **Territorio:** Ambientales, Agropecuario, Información regional.
-
-+ Descargar el archivo en formato compatible (CSV, XLSX, etc.) y cargarlo en R.
-
-
-**2. Selección de variables**
-
-+ Identificar y seleccionar:
-+ Código del departamento o municipio.
-+ Una variable cuantitativa (por ejemplo, numero de hijos).
-+ Una variable cualitativa (por ejemplo, causa principal de la defunción).
-
-**3. Limpieza de datos**
-
-+ Identificar y tratar:
-+ Datos perdidos: indicar cuántos valores faltan y aplicar técnicas de imputación o exclusión según el caso.
-+ Datos repetidos: eliminar filas duplicadas en el dataset.
-
-**4. Análisis exploratorio de datos (EDA)**
-
-+ Calcular medidas estadísticas descriptivas (media, mediana, moda, etc.) para la variable cuantitativa.
-+ Generar gráficos básicos (barras, boxplots, histogramas, etc.) para visualizar las variables seleccionadas.
-+ Filtrar y presentar el Top 10 de municipios o departamentos según la producción de leche.
-
-**5. Documentación en R Markdown**
-
-+ Crear un informe en R Markdown que incluya:
-+ Introducción y descripción del dataset seleccionado.
-+ Procedimiento seguido para la limpieza de datos.
-+ Resultados del análisis exploratorio (tablas y gráficos).
-+ Conclusiones.
-
-**6. Publicación y entrega**
-
-+ Subir el informe generado en formato HTML a un repositorio público de GitHub.
-+ Enviar al docente el enlace al repositorio.
